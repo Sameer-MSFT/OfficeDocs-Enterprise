@@ -1,5 +1,5 @@
 ---
-title: "Multi-Geo capabilities in Exchange Online"
+title: "Multi-Geo Capabilities in Exchange Online"
 ms.author: chrisda
 author: chrisda
 manager: serdars
@@ -13,9 +13,9 @@ ms.assetid:
 description: "Expand your Office 365 presence to multiple geographic regions with multi-geo capabilities in Exchange Online."
 ---
 
-# Multi-Geo capabilities in Exchange Online
+# Multi-Geo Capabilities in Exchange Online
 
-Multi-Geo capabilities in Office 365 enable a single tenant to span multiple geographic locations (Geos). When Multi-Geo capabilities are enabled, customers can select the location of Exchange Online mailbox content (data at rest) on a per-user basis.
+Multi-Geo Capabilities in Office 365 enable a single tenant to span multiple geographic locations (Geos). When Multi-Geo is enabled, customers can select the location of Exchange Online mailbox content (data at rest) on a per-user basis.
 
 Your initial tenant location (referred to as your "default" or "central" location) is determined based on your billing address. When Multi-Geo is enabled, you can place mailboxes in additional "satellite" locations by:
 
@@ -27,7 +27,7 @@ Your initial tenant location (referred to as your "default" or "central" locatio
 
 The following Geos are available for use in a Multi-Geo configuration:
 
-- Asia/Pacific
+- Asia Pacific
 
 - Australia
 
@@ -301,3 +301,9 @@ Or, you can use the following steps to onboard mailboxes directly in a specific 
 5. Repeat step #4 for every mailbox you need to migrate from on-premises Exchange to the satellite Geo you are currently connected to.
 
 6. If you need to migrate additional mailboxes to a different satellite Geo, repeat steps 2 through 4 for each specific satellite Geo.
+
+**Multi-Geo Reporting**
+Multi-Geo Usage Reports in the Office 365 Admin Center display user count by Geo. The report displays user distribution for the current month and provides historical data for the past 6 months.
+
+**Identifying where a specific user’s data is stored**
+The Users tab in the Office 365 admin center displays each user’s PreferredDataLocation (PDL)
